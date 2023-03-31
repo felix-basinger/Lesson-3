@@ -38,7 +38,7 @@ void IsItFiveDigitNum(int num)
     string str = num.ToString();
     int length = str.Length;
     if (length == 5) IsItPoliNum(str);
-    else System.Console.WriteLine("Error! Your number isn't five-digit");
+    else System.Console.WriteLine($"Error! Your number {str} isn't five-digit");
 }
 
 void IsItPoliNum(string str)
@@ -51,6 +51,6 @@ void IsItPoliNum(string str)
     else 
     {
         int number = Convert.ToInt32(str);
-        System.Console.WriteLine($"Error! Your number {number} isn't a palindrome");
+        System.Console.WriteLine($"Error! Your number {number} isn't a palindrome!");
     }
 }
