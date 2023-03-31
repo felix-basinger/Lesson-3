@@ -37,5 +37,6 @@ void NumCube()
         Console.Write(Math.Pow(i, 3));
         Console.Write(", ");
     }
+    System.Console.WriteLine(" ");
 }
  
